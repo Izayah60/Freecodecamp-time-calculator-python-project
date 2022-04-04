@@ -25,7 +25,7 @@ def add_time(start, duration, *args):
     else:
       days = t // 2
 
-
+ #if t != 0: 
     if t > 0 and t % 2 != 0:
       label = "AM" if label == "PM" else "PM"
   new_time = str(int(hours)) + ":"
