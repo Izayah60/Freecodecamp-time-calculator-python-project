@@ -19,7 +19,7 @@ def add_time(start, duration, *args):
     if hours > 12:
       hours = hours - ((t-1) * 12)
 
-  #if t > 0
+  #if t > 0:
     if label == "PM":
       days = ((t-1) // 2) + 1
     else:
